@@ -19,6 +19,6 @@ public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 		net.icycinnamon.moreofthecutestuff.item.ModItemGroups.registerItemGroups();
 		ModBlockEntities.registerBlockEntities();
 
-		LOGGER.info("Thank you for playing More Of The Cute Stuff mod made by IcyCinnamon! I thank you for your support <3");
+		LOGGER.info("Thank you for playing More Of The Cute Stuff mod made by Astelux! I thank you for your support <3");
 	}
 }
