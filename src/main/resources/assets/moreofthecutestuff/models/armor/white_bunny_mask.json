@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "moreofthecutestuff:models/armor/white_bunny_layer_1",
+    "layer1": "moreofthecutestuff:models/armor/white_bunny_layer_2"
+  }
+}

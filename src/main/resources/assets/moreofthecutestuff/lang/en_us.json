@@ -1,0 +1,18 @@
+{
+  "item.moreofthecutestuff.testeritemss": "test_item_ss",
+  "item.moreofthecutestuff.aj_pfp": "HyperWeasel Discord pfp",
+  "item.moreofthecutestuff.the_pfp": "IcyCinnamon Discord pfp",
+  "item.moreofthecutestuff.motcs_placeholder": "placeholder_",
+  "item.moreofthecutestuff.cherry_flower_diamond": "Cherry Flower Diamond",
+  "item.moreofthecutestuff.cherry_flower_pickaxe": "Cherry Flower Pickaxe",
+  "item.moreofthecutestuff.cherry_flower_sword": "Cherry Flower Sword",
+  "item.moreofthecutestuff.white_bunny_mask": "White Bunny Mask",
+  "item.moreofthecutestuff.purple_bunny_mask": "Purple Bunny Mask",
+  "block.moreofthecutestuff.curruption_block": "Curruption Block",
+  "block.moreofthecutestuff.pixel_counter": "pixel_counter - dev item",
+  "block.moreofthecutestuff.icycinnamonplushblock": "IcyCinnamon Plush",
+  "block.moreofthecutestuff.asteluxplushblock": "Astelux Plush",
+  "block.moreofthecutestuff.flooffywhiskersplushblock": "FlooffyWhiskers Plush",
+
+  "itemgroup.motcst": "More Of The Cute Stuff!"
+}
