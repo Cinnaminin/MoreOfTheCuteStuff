@@ -1,4 +1,4 @@
-package net.icycinnamon.moreofthecutestuff.item;
+package item;
 
 import block.ModBlocks;
 import item.ModArmorItem;
@@ -21,8 +21,11 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.motcst"))
                     .icon(() -> new ItemStack(item.ModItems.CHERRY_FLOWER_DIAMOND)).entries((displayContext, entries) -> {
                         entries.add(item.ModItems.CHERRY_FLOWER_DIAMOND);
-                        entries.add(item.ModItems.CHERRY_FLOWER_PICKAXE);
-                        entries.add(item.ModItems.CHERRY_FLOWER_SWORD);
+                        entries.add(ModItems.CHERRY_CRYSTAL_SWORD);
+                        entries.add(ModItems.CHERRY_CRYSTAL_AXE);
+                        entries.add(ModItems.CHERRY_CRYSTAL_PICKAXE);
+                        entries.add(ModItems.CHERRY_CRYSTAL_SHOVEL);
+                        entries.add(ModItems.CHERRY_CRYSTAL_HOE);
                         entries.add(ModBlocks.ICYCINNAMONPLUSHBLOCK);
                         entries.add(ModBlocks.FLOOFFYWHISKERSPLUSHBLOCK);
                         entries.add(ModBlocks.ASTELUXPLUSHBLOCK);

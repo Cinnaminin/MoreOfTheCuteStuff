@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "moreofthecutestuff:item/cherry_flower_pickaxe"
+    "layer0": "moreofthecutestuff:item/cherry_crystal_sword"
   }
 }

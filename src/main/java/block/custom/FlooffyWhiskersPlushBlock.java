@@ -42,8 +42,4 @@ public class FlooffyWhiskersPlushBlock extends Block {
     public BlockRenderType getRenderType(BlockState state) {
         return BlockRenderType.MODEL;
     }
-
-    public static void registerRenderLayers() {
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOOFFYWHISKERSPLUSHBLOCK, RenderLayer.getTranslucent());
-    }
 }

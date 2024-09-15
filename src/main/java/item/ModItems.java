@@ -14,13 +14,25 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item TESTERITEMSS = registerItem("testeritemss", new Item(new FabricItemSettings()));
+    public static final Item CHERRY_CRYSTAL = registerItem("cherry_crystal", new Item(new FabricItemSettings()));
     public static final Item AJ_PFP = registerItem("aj_pfp", new Item(new FabricItemSettings()));
     public static final Item MOTCS_PLACEHOLDER = registerItem("motcs_placeholder", new Item(new FabricItemSettings()));
     public static final Item CHERRY_FLOWER_DIAMOND = registerItem("cherry_flower_diamond", new Item(new FabricItemSettings()));
-    public static final Item CHERRY_FLOWER_PICKAXE = registerItem("cherry_flower_pickaxe",
-            new PickaxeItem(ModToolMaterial.CHERRY_FLOWER_DIAMOND, 1, -2.8f, new FabricItemSettings()));
-    public static final Item CHERRY_FLOWER_SWORD = registerItem("cherry_flower_sword",
-            new SwordItem(ModToolMaterial.CHERRY_FLOWER_DIAMOND, 7, -2.4f, new FabricItemSettings()));
+    //
+    //tools
+    public static final Item CHERRY_CRYSTAL_PICKAXE = registerItem("cherry_crystal_pickaxe",
+            new PickaxeItem(ModToolMaterial.CHERRY_CRYSTAL, 1, -2.8f, new FabricItemSettings()));
+    public static final Item CHERRY_CRYSTAL_AXE = registerItem("cherry_crystal_axe",
+            new PickaxeItem(ModToolMaterial.CHERRY_CRYSTAL, 8, -3.0f, new FabricItemSettings()));
+    public static final Item CHERRY_CRYSTAL_SHOVEL = registerItem("cherry_crystal_shovel",
+            new PickaxeItem(ModToolMaterial.CHERRY_CRYSTAL, 4, -3.0f, new FabricItemSettings()));
+    public static final Item CHERRY_CRYSTAL_HOE = registerItem("cherry_crystal_hoe",
+            new PickaxeItem(ModToolMaterial.CHERRY_CRYSTAL, 1, 2.0f, new FabricItemSettings()));
+    public static final Item CHERRY_CRYSTAL_SWORD = registerItem("cherry_crystal_sword",
+            new SwordItem(ModToolMaterial.CHERRY_CRYSTAL, 7, -2.4f, new FabricItemSettings()));
+    //
+    //
+
     public static final Item THE_PFP = registerItem("the_pfp", new Item(new FabricItemSettings()));
     public static final Item WHITE_BUNNY_MASK = registerItem("white_bunny_mask",
             new ModArmorItem(ModArmorMaterials.WHITE_BUNNY, ArmorItem.Type.HELMET, new FabricItemSettings()));

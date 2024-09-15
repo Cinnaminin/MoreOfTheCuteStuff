@@ -19,6 +19,7 @@ public class AsteluxPlushBlock extends Block {
     private static final VoxelShape SHAPE = Block.createCuboidShape(5, 0, 5, 11, 8, 11);
 
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
+
     public AsteluxPlushBlock(Settings settings) {
         super(settings);
     }
@@ -43,8 +44,5 @@ public class AsteluxPlushBlock extends Block {
         return BlockRenderType.MODEL;
     }
 
-    public static void registerRenderLayers() {
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ASTELUXPLUSHBLOCK, RenderLayer.getTranslucent());
-    }
 }
 

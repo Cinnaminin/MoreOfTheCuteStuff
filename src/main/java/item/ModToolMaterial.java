@@ -8,8 +8,8 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    CHERRY_FLOWER_DIAMOND(5,1961, 5, 1, 26,
-    () -> Ingredient.ofItems(ModItems.CHERRY_FLOWER_DIAMOND));
+    CHERRY_CRYSTAL(5,1961, 5, 1, 26,
+    () -> Ingredient.ofItems(ModItems.CHERRY_CRYSTAL));
 
     private final int mininglevel;
     private final int itemDurability;
@@ -34,7 +34,7 @@ public enum ModToolMaterial implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return this.miningSpeed;
+        return 6.0f;
     }
 
     @Override
@@ -56,4 +56,5 @@ public enum ModToolMaterial implements ToolMaterial {
     public Ingredient getRepairIngredient() {
         return this.repairIngredient.get();
     }
+
 }

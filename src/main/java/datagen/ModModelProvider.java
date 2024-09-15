@@ -25,7 +25,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TESTERITEMSS, Models.GENERATED);
         itemModelGenerator.register(ModItems.AJ_PFP, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHERRY_FLOWER_DIAMOND, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CHERRY_FLOWER_PICKAXE, Models.HANDHELD);
-        itemModelGenerator.register(ModItems.CHERRY_FLOWER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHERRY_CRYSTAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHERRY_CRYSTAL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHERRY_CRYSTAL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHERRY_CRYSTAL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHERRY_CRYSTAL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CHERRY_CRYSTAL_HOE, Models.HANDHELD);
     }
 }

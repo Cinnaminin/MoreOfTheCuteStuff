@@ -21,24 +21,24 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CHERRY_FLOWER_PICKAXE, 1 )
-                .pattern("DDD")
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CHERRY_CRYSTAL_PICKAXE, 1 )
+                .pattern("CCC")
                 .pattern(" S ")
                 .pattern(" S ")
                 .input('S', Items.STICK)
-                .input('D', ModItems.CHERRY_FLOWER_DIAMOND)
-                .criterion(hasItem(ModItems.CHERRY_FLOWER_DIAMOND), conditionsFromItem(ModItems.CHERRY_FLOWER_DIAMOND))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CHERRY_FLOWER_PICKAXE)));
+                .input('C', ModItems.CHERRY_CRYSTAL)
+                .criterion(hasItem(ModItems.CHERRY_CRYSTAL), conditionsFromItem(ModItems.CHERRY_CRYSTAL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CHERRY_CRYSTAL_PICKAXE)));
 
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CHERRY_FLOWER_SWORD, 1 )
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CHERRY_CRYSTAL_SWORD, 1 )
                 .pattern(" D ")
                 .pattern(" D ")
                 .pattern(" S ")
                 .input('S', Items.STICK)
-                .input('D', ModItems.CHERRY_FLOWER_DIAMOND)
-                .criterion(hasItem(ModItems.CHERRY_FLOWER_DIAMOND), conditionsFromItem(ModItems.CHERRY_FLOWER_DIAMOND))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CHERRY_FLOWER_SWORD)));
+                .input('D', ModItems.CHERRY_CRYSTAL)
+                .criterion(hasItem(ModItems.CHERRY_CRYSTAL), conditionsFromItem(ModItems.CHERRY_CRYSTAL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.CHERRY_CRYSTAL_SWORD)));
 
     }
 }

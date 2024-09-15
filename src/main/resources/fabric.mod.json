@@ -3,13 +3,14 @@
 	"id": "moreofthecutestuff",
 	"version": "${version}",
 	"name": "More Of The Cute Stuff",
-	"description": "A Mod that adds more cute stuff to the game! Mostly Based on Pastel colors!",
+	"description": "A Mod that adds more cute stuff to the game! Have Fun!",
 	"authors": [
-		"IcyCinnamon"
+		"Astelux"
 	],
 	"contact": {
-		"homepage": "https://www.cecilux.com/icycinnamon/mods",
-		"sources": "https://github.com/icycinnamon/shatteredspirits"
+		"homepage": "https://mods.cecilux.com/mods/moreofthecutestuff",
+		"sources": "https://github.com/asteluxlol/MoreOfTheCuteStuff",
+		"issues": "https://github.com/asteluxlol/MoreOfTheCuteStuffFabric1.20.1/issues"
 	},
 	"license": "CC BY-NC-ND 4.0",
 	"icon": "assets/moreofthecutestuff/icon.png",
@@ -20,8 +21,12 @@
 		],
 		"fabric-datagen": [
 			"net.icycinnamon.moreofthecutestuff.MoreOfTheCuteStuffDataGenerator"
+		],
+		"client": [
+			"net.icycinnamon.moreofthecutestuff.mixin.MoreOfTheCuteStuffClient"
 		]
-	},
+	}
+},
 	"mixins": [
 		"moreofthecutestuff.mixins.json"
 	],

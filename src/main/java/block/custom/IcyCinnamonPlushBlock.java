@@ -20,7 +20,7 @@ public class IcyCinnamonPlushBlock extends HorizontalFacingBlock {
     public static final DirectionProperty FACING = HorizontalFacingBlock.FACING;
 
     public IcyCinnamonPlushBlock(Settings settings) {
-        super(settings);
+        super(settings.nonOpaque());
         this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH));
     }
 
@@ -42,9 +42,5 @@ public class IcyCinnamonPlushBlock extends HorizontalFacingBlock {
     @Override
     public BlockRenderType getRenderType(BlockState state) {
         return BlockRenderType.MODEL;
-    }
-
-    public static void registerRenderLayers() {
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ICYCINNAMONPLUSHBLOCK, RenderLayer.getTranslucent());
     }
 }

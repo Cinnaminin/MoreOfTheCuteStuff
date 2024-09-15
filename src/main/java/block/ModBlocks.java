@@ -43,9 +43,6 @@ public class ModBlocks {
         registerBlock("flooffywhiskersplushblock", FLOOFFYWHISKERSPLUSHBLOCK);
         registerBlock("asteluxplushblock", ASTELUXPLUSHBLOCK);
 
-
-        IcyCinnamonPlushBlock.registerRenderLayers();
-        FlooffyWhiskersPlushBlock.registerRenderLayers();
-        AsteluxPlushBlock.registerRenderLayers();
+        //render for my plushis
     }
 }
