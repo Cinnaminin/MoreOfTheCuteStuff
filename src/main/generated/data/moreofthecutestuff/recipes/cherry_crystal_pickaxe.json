@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "moreofthecutestuff:cherry_crystal"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "CCC",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "moreofthecutestuff:cherry_crystal_pickaxe"
+  },
+  "show_notification": true
+}

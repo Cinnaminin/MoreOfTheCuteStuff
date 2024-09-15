@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "moreofthecutestuff:item/cherry_crystal_axe"
+  }
+}
