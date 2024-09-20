@@ -20,10 +20,11 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block CURRUPTION_BLOCK = new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).sounds(BlockSoundGroup.SHROOMLIGHT));
-    public static final Block DIAMOND_REINFORCED_CHERRY_PLANKS = new CustomLoreBlock(
+    public static final Block DIAMOND_R_CHERRY_PLANKS = new CustomLoreBlock(
             FabricBlockSettings.copyOf(Blocks.DEEPSLATE).sounds(BlockSoundGroup.CHERRY_WOOD),
-            "Diamond Reinforced",  // Lore text
-            Formatting.AQUA        // Lore color
+            "Diamond Reinforced",
+            Formatting.DARK_AQUA,
+            Formatting.ITALIC
     );
 
     public static final Block PIXEL_COUNTER = new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.LODESTONE).strength(0.2F));
@@ -46,7 +47,7 @@ public class ModBlocks {
         MoreOfTheCuteStuff.LOGGER.info("Registering ModBlocks for " + MoreOfTheCuteStuff.MOD_ID);
 
         registerBlock("curruption_block", CURRUPTION_BLOCK);
-        registerBlock("diamond_reinforced_cherry_planks", DIAMOND_REINFORCED_CHERRY_PLANKS);
+        registerBlock("diamond_reinforced_cherry_planks", DIAMOND_R_CHERRY_PLANKS);
         registerBlock("pixel_counter", PIXEL_COUNTER);
         registerBlock("icycinnamonplushblock", ICYCINNAMONPLUSHBLOCK);
         registerBlock("flooffywhiskersplushblock", FLOOFFYWHISKERSPLUSHBLOCK);
