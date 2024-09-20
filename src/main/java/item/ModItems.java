@@ -1,5 +1,7 @@
 package item;
 
+import block.custom.AsteluxPlushBlock;
+import block.custom.IcyCinnamonPlushBlock;
 import item.ModArmorMaterials;
 import item.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -41,6 +43,17 @@ public class ModItems {
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(CHERRY_FLOWER_DIAMOND);
+        entries.add(CHERRY_CRYSTAL);
+    }
+    private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {
+        entries.add(CHERRY_CRYSTAL_SHOVEL);
+        entries.add(CHERRY_CRYSTAL_PICKAXE);
+        entries.add(CHERRY_CRYSTAL_AXE);
+        entries.add(CHERRY_CRYSTAL_HOE);
+    }
+    private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
+        entries.add(CHERRY_CRYSTAL_SWORD);
+        entries.add(CHERRY_CRYSTAL_AXE);
     }
 
     private static Item registerItem(String name, Item item) {
@@ -51,5 +64,7 @@ public class ModItems {
         MoreOfTheCuteStuff.LOGGER.info("Registering Mod Items For " + MoreOfTheCuteStuff.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatTabItemGroup);
     }
 }

@@ -11,11 +11,11 @@
   },
   "pattern": [
     " C ",
-    " C ",
+    " S ",
     " S "
   ],
   "result": {
-    "item": "moreofthecutestuff:cherry_crystal_sword"
+    "item": "moreofthecutestuff:cherry_crystal_shovel"
   },
   "show_notification": true
 }

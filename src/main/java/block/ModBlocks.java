@@ -2,6 +2,7 @@ package block;
 
 import block.custom.AsteluxPlushBlock;
 import block.custom.FlooffyWhiskersPlushBlock;
+import item.custom.CustomLoreBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.icycinnamon.moreofthecutestuff.MoreOfTheCuteStuff;
@@ -13,11 +14,18 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
     public static final Block CURRUPTION_BLOCK = new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).sounds(BlockSoundGroup.SHROOMLIGHT));
+    public static final Block DIAMOND_REINFORCED_CHERRY_PLANKS = new CustomLoreBlock(
+            FabricBlockSettings.copyOf(Blocks.DEEPSLATE).sounds(BlockSoundGroup.CHERRY_WOOD),
+            "Diamond Reinforced",  // Lore text
+            Formatting.AQUA        // Lore color
+    );
+
     public static final Block PIXEL_COUNTER = new Block(FabricBlockSettings.copyOf(Blocks.STONE).sounds(BlockSoundGroup.LODESTONE).strength(0.2F));
     public static final Block ICYCINNAMONPLUSHBLOCK = new IcyCinnamonPlushBlock(FabricBlockSettings.copyOf(Blocks.PINK_WOOL).nonOpaque());
     public static final Block FLOOFFYWHISKERSPLUSHBLOCK = new FlooffyWhiskersPlushBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque());
@@ -38,11 +46,11 @@ public class ModBlocks {
         MoreOfTheCuteStuff.LOGGER.info("Registering ModBlocks for " + MoreOfTheCuteStuff.MOD_ID);
 
         registerBlock("curruption_block", CURRUPTION_BLOCK);
+        registerBlock("diamond_reinforced_cherry_planks", DIAMOND_REINFORCED_CHERRY_PLANKS);
         registerBlock("pixel_counter", PIXEL_COUNTER);
         registerBlock("icycinnamonplushblock", ICYCINNAMONPLUSHBLOCK);
         registerBlock("flooffywhiskersplushblock", FLOOFFYWHISKERSPLUSHBLOCK);
         registerBlock("asteluxplushblock", ASTELUXPLUSHBLOCK);
 
-        //render for my plushis
     }
 }

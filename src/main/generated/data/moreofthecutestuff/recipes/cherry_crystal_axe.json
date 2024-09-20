@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    " C ",
-    " C ",
+    " CC",
+    " SC",
     " S "
   ],
   "result": {
-    "item": "moreofthecutestuff:cherry_crystal_sword"
+    "item": "moreofthecutestuff:cherry_crystal_axe"
   },
   "show_notification": true
 }

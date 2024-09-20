@@ -21,6 +21,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.motcst"))
                     .icon(() -> new ItemStack(item.ModItems.CHERRY_FLOWER_DIAMOND)).entries((displayContext, entries) -> {
                         entries.add(item.ModItems.CHERRY_FLOWER_DIAMOND);
+                        entries.add(ModItems.CHERRY_CRYSTAL);
                         entries.add(ModItems.CHERRY_CRYSTAL_SWORD);
                         entries.add(ModItems.CHERRY_CRYSTAL_AXE);
                         entries.add(ModItems.CHERRY_CRYSTAL_PICKAXE);
@@ -30,6 +31,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FLOOFFYWHISKERSPLUSHBLOCK);
                         entries.add(ModBlocks.ASTELUXPLUSHBLOCK);
                         entries.add(ModItems.WHITE_BUNNY_MASK);
+
 
 
 
