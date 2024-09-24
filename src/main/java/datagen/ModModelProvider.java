@@ -19,6 +19,12 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CURRUPTION_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PIXEL_COUNTER);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DIAMOND_R_CHERRY_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GOLD_R_CHERRY_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.IRON_R_CHERRY_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.EMERALD_R_CHERRY_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHERITE_R_CHERRY_PLANKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.REDSTONE_R_CHERRY_PLANKS);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CRYSTAL_CHERRY_SAPLING, ModBlocks.POTTED_CRYSTAL_CHERRY_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

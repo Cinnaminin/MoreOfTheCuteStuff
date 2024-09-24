@@ -1,5 +1,6 @@
 package datagen;
 
+import block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 
@@ -7,9 +8,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     public ModLootTableProvider(FabricDataOutput dataOutput) {
         super(dataOutput);
     }
-
-    @Override
-    public void generate() {
-
+public void generate() {
+    addDrop(ModBlocks.CRYSTAL_CHERRY_SAPLING);
+    addPottedPlantDrops(ModBlocks.POTTED_CRYSTAL_CHERRY_SAPLING);
     }
 }

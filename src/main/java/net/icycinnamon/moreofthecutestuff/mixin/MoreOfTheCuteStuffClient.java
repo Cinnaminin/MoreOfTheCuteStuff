@@ -16,5 +16,7 @@ public class MoreOfTheCuteStuffClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ASTELUXPLUSHBLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ICYCINNAMONPLUSHBLOCK, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FLOOFFYWHISKERSPLUSHBLOCK, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CRYSTAL_CHERRY_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_CRYSTAL_CHERRY_SAPLING, RenderLayer.getCutout());
     }
 }

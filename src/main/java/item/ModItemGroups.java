@@ -20,6 +20,12 @@ public class ModItemGroups {
             new Identifier(MoreOfTheCuteStuff.MOD_ID, "motcs_placeholder"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.motcst"))
                     .icon(() -> new ItemStack(item.ModItems.CHERRY_FLOWER_DIAMOND)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.IRON_R_CHERRY_PLANKS);
+                        entries.add(ModBlocks.REDSTONE_R_CHERRY_PLANKS);
+                        entries.add(ModBlocks.GOLD_R_CHERRY_PLANKS);
+                        entries.add(ModBlocks.EMERALD_R_CHERRY_PLANKS);
+                        entries.add(ModBlocks.DIAMOND_R_CHERRY_PLANKS);
+                        entries.add(ModBlocks.NETHERITE_R_CHERRY_PLANKS);
                         entries.add(item.ModItems.CHERRY_FLOWER_DIAMOND);
                         entries.add(ModItems.CHERRY_CRYSTAL);
                         entries.add(ModItems.CHERRY_CRYSTAL_SWORD);
