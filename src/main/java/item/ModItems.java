@@ -1,13 +1,9 @@
 package item;
 
-import block.custom.AsteluxPlushBlock;
-import block.custom.IcyCinnamonPlushBlock;
-import item.ModArmorMaterials;
-import item.ModToolMaterial;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.icycinnamon.moreofthecutestuff.MoreOfTheCuteStuff;
+import dev.cinnaminin.moreofthecutestuff.MoreOfTheCuteStuff;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -17,9 +13,8 @@ public class ModItems {
 
     public static final Item TESTERITEMSS = registerItem("testeritemss", new Item(new FabricItemSettings()));
     public static final Item CHERRY_CRYSTAL = registerItem("cherry_crystal", new Item(new FabricItemSettings()));
-    public static final Item AJ_PFP = registerItem("aj_pfp", new Item(new FabricItemSettings()));
+    public static final Item CHERRY_INGOT = registerItem("cherry_ingot", new Item(new FabricItemSettings()));
     public static final Item MOTCS_PLACEHOLDER = registerItem("motcs_placeholder", new Item(new FabricItemSettings()));
-    public static final Item CHERRY_FLOWER_DIAMOND = registerItem("cherry_flower_diamond", new Item(new FabricItemSettings()));
     //
     //tools
     public static final Item CHERRY_CRYSTAL_PICKAXE = registerItem("cherry_crystal_pickaxe",
@@ -35,14 +30,12 @@ public class ModItems {
     //
     //
 
-    public static final Item THE_PFP = registerItem("the_pfp", new Item(new FabricItemSettings()));
     public static final Item WHITE_BUNNY_MASK = registerItem("white_bunny_mask",
-            new ModArmorItem(ModArmorMaterials.WHITE_BUNNY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.WHITE_BUNNY_MASK, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PURPLE_BUNNY_MASK = registerItem("purple_bunny_mask",
             new ModArmorItem(ModArmorMaterials.PURPLE_BUNNY, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(CHERRY_FLOWER_DIAMOND);
         entries.add(CHERRY_CRYSTAL);
     }
     private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {

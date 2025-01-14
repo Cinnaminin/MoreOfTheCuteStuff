@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "moreofthecutestuff:block/cinnamininnplushblock_north" },
+    "facing=east": { "model": "moreofthecutestuff:block/cinnamininnplushblock_east" },
+    "facing=south": { "model": "moreofthecutestuff:block/cinnamininnplushblock_south" },
+    "facing=west": { "model": "moreofthecutestuff:block/cinnamininnplushblock" }
+  }
+}

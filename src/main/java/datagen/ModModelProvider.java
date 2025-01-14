@@ -1,10 +1,9 @@
 package datagen;
 
-import block.ModBlocks;
+import dev.cinnaminin.block.ModBlocks;
 import item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import item.ModItems;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
@@ -30,9 +29,8 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.TESTERITEMSS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.AJ_PFP, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CHERRY_FLOWER_DIAMOND, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHERRY_CRYSTAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHERRY_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.CHERRY_CRYSTAL_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CHERRY_CRYSTAL_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CHERRY_CRYSTAL_AXE, Models.HANDHELD);

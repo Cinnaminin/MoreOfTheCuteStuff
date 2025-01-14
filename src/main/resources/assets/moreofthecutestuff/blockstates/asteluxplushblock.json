@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "moreofthecutestuff:block/asteluxplushblock_north" },
-    "facing=east": { "model": "moreofthecutestuff:block/asteluxplushblock_east" },
-    "facing=south": { "model": "moreofthecutestuff:block/asteluxplushblock_south" },
-    "facing=west": { "model": "moreofthecutestuff:block/asteluxplushblock" }
-  }
-}

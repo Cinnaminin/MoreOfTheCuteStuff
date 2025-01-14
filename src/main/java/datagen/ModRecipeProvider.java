@@ -1,16 +1,12 @@
 package datagen;
 
-import block.ModBlocks;
+import dev.cinnaminin.block.ModBlocks;
 import item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import item.ModItems;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
-import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -75,7 +71,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("DAD")
                 .input('D', Items.DIAMOND)
                 .input('A', Items.AMETHYST_SHARD)
-                .input('C', Items.CHERRY_SAPLING)
+                .input('C', ModItems.CHERRY_INGOT)
                 .criterion(hasItem(ModItems.CHERRY_CRYSTAL), conditionsFromItem(Items.AMETHYST_SHARD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.CHERRY_CRYSTAL)));
 

@@ -5,10 +5,10 @@
 	"name": "More Of The Cute Stuff",
 	"description": "A Mod that adds more cute stuff to the game! Have Fun!",
 	"authors": [
-		"Astelux"
+		"Cinnaminin"
 	],
 	"contact": {
-		"homepage": "https://mods.cecilux.com/mods/moreofthecutestuff",
+		"homepage": "https://projects.cinnaminin.dev/mcmods/moreofthecutestuff",
 		"sources": "https://github.com/asteluxlol/MoreOfTheCuteStuff",
 		"issues": "https://github.com/asteluxlol/MoreOfTheCuteStuffFabric1.20.1/issues"
 	},
@@ -17,13 +17,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.icycinnamon.moreofthecutestuff.MoreOfTheCuteStuff"
+			"dev.cinnaminin.moreofthecutestuff.MoreOfTheCuteStuff"
 		],
 		"fabric-datagen": [
-			"net.icycinnamon.moreofthecutestuff.MoreOfTheCuteStuffDataGenerator"
+			"dev.cinnaminin.moreofthecutestuff.MoreOfTheCuteStuffDataGenerator"
 		],
 		"client": [
-			"net.icycinnamon.moreofthecutestuff.mixin.MoreOfTheCuteStuffClient"
+			"dev.cinnaminin.moreofthecutestuff.mixin.MoreOfTheCuteStuffClient"
 		]
 	}
 },

@@ -1,6 +1,6 @@
 package datagen;
 
-import block.ModBlocks;
+import dev.cinnaminin.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 

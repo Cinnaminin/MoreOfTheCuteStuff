@@ -1,7 +1,6 @@
 {
   "variants": {
-    "": {
-      "model": "moreofthecutestuff:block/curruption_block"
-    }
+    "lit=false": {"model": "moreofthecutestuff:block/curruption_block"},
+    "lit=true": {"model": "moreofthecutestuff:block/curruption_block_var2" }
   }
 }

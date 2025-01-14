@@ -1,6 +1,6 @@
 package item;
 
-import net.icycinnamon.moreofthecutestuff.MoreOfTheCuteStuff;
+import dev.cinnaminin.moreofthecutestuff.MoreOfTheCuteStuff;
 import item.ModItems;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
@@ -12,8 +12,8 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    CHERRYFLOWERDIAMOND("cherryflowerdiamond",24, new int[] {4, 9, 7, 5 },19, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.1f, 0.1f, () -> Ingredient.ofItems(ModItems.CHERRY_FLOWER_DIAMOND)),
-    WHITE_BUNNY("white_bunny", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA, 0.0F, 0.0F, () -> Ingredient.ofItems(net.minecraft.item.Items.STRING)),
+    CHERRYFLOWERDIAMOND("cherryflowerdiamond",24, new int[] {4, 9, 7, 5 },19, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.1f, 0.1f, () -> Ingredient.ofItems(ModItems.CHERRY_CRYSTAL)),
+    WHITE_BUNNY_MASK("white_bunny_mask", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA, 0.0F, 0.0F, () -> Ingredient.ofItems(net.minecraft.item.Items.STRING)),
     PURPLE_BUNNY("purple_bunny", 7, new int[]{1, 2, 3, 2}, 18, SoundEvents.ITEM_ARMOR_EQUIP_ELYTRA, 0.0F, 0.0F, () -> Ingredient.ofItems(net.minecraft.item.Items.WHITE_WOOL));
     ;
 
